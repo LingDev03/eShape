@@ -77,32 +77,7 @@ pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2 --e
 
 ## How to Run
 
-```bash
-python eShape.py \
-  --dataset_name PigAirwayPressure \
-  --num_shapelet 10 \
-  --subset_ratio 0.2 \
-  --r 4 \
-  --epochs 1000
-```
 
-```bash
-python eShape.py \
-  --dataset_name PigArtPressure \
-  --num_shapelet 10 \
-  --subset_ratio 0.2 \
-  --r 4 \
-  --epochs 1000
-```
-
-```bash
-python eShape.py \
-  --dataset_name PigCVP \
-  --num_shapelet 10 \
-  --subset_ratio 0.2 \
-  --r 4 \
-  --epochs 1000
-```
 
 ```bash
 python eShape.py \
@@ -137,6 +112,32 @@ python eShape.py \
   --subset_ratio 0.2 \
   --r 4 \
   --epochs 1000
+```bash
+python eShape.py \
+  --dataset_name PigAirwayPressure \
+  --num_shapelet 10 \
+  --subset_ratio 0.2 \
+  --r 4 \
+  --epochs 1000
+```
+
+```bash
+python eShape.py \
+  --dataset_name PigArtPressure \
+  --num_shapelet 10 \
+  --subset_ratio 0.2 \
+  --r 4 \
+  --epochs 1000
+```
+
+```bash
+python eShape.py \
+  --dataset_name PigCVP \
+  --num_shapelet 10 \
+  --subset_ratio 0.2 \
+  --r 4 \
+  --epochs 1000
+```
 ```
 
 Alternatively, define multiple experiment configurations in `config.csv` for batch processing.
