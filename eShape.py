@@ -61,8 +61,8 @@ def main(args):
     elif training_set_loader.number_of_instance < 400:
         args.batch_size = 64
     elif training_set_loader.number_of_instance < 800:
-        args.batch_size = 1
-
+        args.batch_size = 128
+    else:
         args.batch_size = 256
 
     #set batch size for data
